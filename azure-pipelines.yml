@@ -21,3 +21,9 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    appType: 'webApp'
+    WebAppName: 'ASP-DefaultResourceGroupEUS-a2f1'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
