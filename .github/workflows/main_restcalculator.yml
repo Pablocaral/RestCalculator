@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'RestCalculator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C91438A0EBC4201B76067F6B4C3F57F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A84A9B36A4CE453CB3DA27FF4357B313 }}
           package: '*.jar'
