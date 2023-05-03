@@ -1,4 +1,4 @@
-package com.uclm.restcalculator.controllets;
+package com.uclm.restcalculator.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

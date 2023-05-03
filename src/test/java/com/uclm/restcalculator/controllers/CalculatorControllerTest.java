@@ -1,6 +1,5 @@
 package com.uclm.restcalculator.controllers;
 
-import com.uclm.restcalculator.controllets.CalculatorController;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.springframework.boot.test.context.SpringBootTest;
