@@ -25,6 +25,13 @@ public class CalculatorControllerTest {
         assertEquals(result, a+b);
     }
 
+    @Test
+    public void subtractTest() throws Exception {
+        givenRandomParameters();
+        whenSubtractMethodIsCalled();
+        assertEquals(result, a-b);
+    }
+
     private void givenRandomParameters() {
         a = random.nextDouble();
         b = random.nextDouble();
@@ -32,5 +39,8 @@ public class CalculatorControllerTest {
 
     private void whenSumMethodIsCalled() {
         result = calculatorController.sum(a, b);
+    }
+    private void whenSubtractMethodIsCalled() {
+        result = calculatorController.subtract(a, b);
     }
 }
